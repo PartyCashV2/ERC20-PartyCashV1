@@ -8,7 +8,7 @@ import "@openzeppelin/contracts-upgradeable@4.9.3/access/OwnableUpgradeable.sol"
 import "@openzeppelin/contracts-upgradeable@4.9.3/proxy/utils/Initializable.sol";
 import "@openzeppelin/contracts-upgradeable@4.9.3/proxy/utils/UUPSUpgradeable.sol";
 
-/// @custom:security-contact party_brasil@hotmail.com
+/// @custom:security-contact party@brasil.com
 contract PartyCashV1 is Initializable, ERC20Upgradeable, ERC20BurnableUpgradeable, PausableUpgradeable, OwnableUpgradeable, UUPSUpgradeable {
     /// @custom:oz-upgrades-unsafe-allow constructor
     constructor() {
